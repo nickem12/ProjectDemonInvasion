@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: ebecce9e3e5e8fa4093e3357c28003e8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_0
+    21300002: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_1
+    21300004: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_2
+    21300006: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_3
+    21300008: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_4
+    21300010: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_5
+    21300012: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_6
+    21300014: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_7
+    21300016: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_8
+    21300018: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_9
+    21300020: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_10
+    21300022: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_11
+    21300024: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_12
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 68
+        width: 80
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6429d542362a549b485d05f3daa2be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 68
+        width: 80
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1319f185757d314ebdba161aba8a806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 68
+        width: 94
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfdf91f7e824eb448ac6e230e708cdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_3
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 68
+        width: 93
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f18c04315559a4a99c333288dc24e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_4
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 68
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b05a6c95328e0448642f3baa0b6ee3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_5
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 68
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df0719ce85e30c4594900f9332f439c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_6
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 68
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0629b9e24a2cb784da66f64489a2a850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_7
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 68
+        width: 95
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9adffbdce4fbc5469fdf1747daadae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_8
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 68
+        width: 80
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd9bcae8ce26d14e8f766a54763d87a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_9
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 68
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cf7fec50bd54444b8f7edc324b999f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_10
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 68
+        width: 94
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750f92bddc524e440beaad0d4e5dcbf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_11
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 68
+        width: 94
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba17bed3cd2ae84497de26045397407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAMe_ENEMY_ANIMALS_WOLF_01-export_12
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 68
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbe0e48bba6ad643b4a9c1789ab154a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 76a30a83e11545b4db7aa253856bfd52
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

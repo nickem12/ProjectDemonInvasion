@@ -1,0 +1,473 @@
+fileFormatVersion: 2
+guid: 6967c1bd445c9da45a4d75b176098333
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_0
+    21300002: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_1
+    21300004: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_2
+    21300006: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_3
+    21300008: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_4
+    21300010: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_5
+    21300012: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_6
+    21300014: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_7
+    21300016: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_8
+    21300018: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_9
+    21300020: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_10
+    21300022: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_11
+    21300024: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_12
+    21300026: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_13
+    21300028: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_14
+    21300030: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_15
+    21300032: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_16
+    21300034: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_17
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_0
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 57
+        width: 314
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885eee3c26fc1074890b2c68fb42df66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_1
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 57
+        width: 323
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d351f29a3ffb2764485c1695cbebc240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_2
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 57
+        width: 307
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec9bb27eb4d09e4e88528680f83e43a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_3
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 57
+        width: 312
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c475bf9d5650c52409c0e8e8e91ec50e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_4
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 57
+        width: 319
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffb0d8226ab7384b9728065ef507104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_5
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 57
+        width: 317
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d582acb5cca4b43b104a33e33ca127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_6
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 57
+        width: 336
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61efb5e531b9504fb58a4c092e9c47b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_7
+      rect:
+        serializedVersion: 2
+        x: 3923
+        y: 57
+        width: 343
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d9be0ccf1638344addceb29186e182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_8
+      rect:
+        serializedVersion: 2
+        x: 4462
+        y: 57
+        width: 334
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5af393abf9b4740942cb705c024ef1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_9
+      rect:
+        serializedVersion: 2
+        x: 5003
+        y: 57
+        width: 335
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f82f1c7854ac104a8348db531046e4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_10
+      rect:
+        serializedVersion: 2
+        x: 5543
+        y: 57
+        width: 342
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ada222966c9eab42a0429f0889805c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_11
+      rect:
+        serializedVersion: 2
+        x: 6087
+        y: 57
+        width: 323
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c458e7b48d9a714a9ac018dedd752df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_12
+      rect:
+        serializedVersion: 2
+        x: 6630
+        y: 57
+        width: 324
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7c8054b8adf17468da08c246f7da46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_13
+      rect:
+        serializedVersion: 2
+        x: 7191
+        y: 57
+        width: 324
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b92ea4482c261748b8b6b6058c3520a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_14
+      rect:
+        serializedVersion: 2
+        x: 7718
+        y: 57
+        width: 310
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6072e21829b94eb4e9dc017d6599fc11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_15
+      rect:
+        serializedVersion: 2
+        x: 8258
+        y: 57
+        width: 315
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a65713564795f4f8b863587386b3d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_16
+      rect:
+        serializedVersion: 2
+        x: 8799
+        y: 57
+        width: 316
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe057a05ee59e6c45a637c275b7d9f2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FALZETH_THE_GUARDSMAN_OF_THE_FLAMES-export_17
+      rect:
+        serializedVersion: 2
+        x: 9339
+        y: 57
+        width: 311
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63215d0da1ada3f4d9a8678e7a6276ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 934cb88ebe86a0443809af69d1e81a53
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

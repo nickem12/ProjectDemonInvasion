@@ -1,0 +1,662 @@
+fileFormatVersion: 2
+guid: 967ff3df1ad6b934f98a9b9685d6221a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_0
+    21300002: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_1
+    21300004: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_2
+    21300006: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_3
+    21300008: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_4
+    21300010: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_5
+    21300012: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_6
+    21300014: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_7
+    21300016: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_8
+    21300018: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_9
+    21300020: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_10
+    21300022: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_11
+    21300024: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_12
+    21300026: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_13
+    21300028: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_14
+    21300030: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_15
+    21300032: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_16
+    21300034: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_17
+    21300036: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_18
+    21300038: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_19
+    21300040: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_20
+    21300042: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_21
+    21300044: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_22
+    21300046: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_23
+    21300048: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_24
+    21300050: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_25
+    21300052: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_26
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a4923fe0f8f2d498c03ed384892196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eec370f4703e649bf62ead57944adf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd751ada9afff34d8293a76e090e4b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_3
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 0
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d6170de9ca05c4dbc7bc30510cd816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_4
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 0
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dccb06d62a39de4290b08deebd94dc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_5
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 0
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25a36f889bdd2a49829682d204b1d84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_6
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8e87ab4c6af1641a5e6e426d443620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_7
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52241b70dc51ba4389f116bc948ce34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_8
+      rect:
+        serializedVersion: 2
+        x: 3613
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7e202b8554637438427862256793e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_9
+      rect:
+        serializedVersion: 2
+        x: 4068
+        y: 0
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0407100b455fc1b44ad2ededae8f687b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_10
+      rect:
+        serializedVersion: 2
+        x: 4522
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12942dc427a7ff940bfab287233a9acc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_11
+      rect:
+        serializedVersion: 2
+        x: 4978
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d668787f19e0e644f8eaf2a2b7644b89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_12
+      rect:
+        serializedVersion: 2
+        x: 5426
+        y: 1
+        width: 461
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88d2e7fdee3bae499e71bef4d64ef6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_13
+      rect:
+        serializedVersion: 2
+        x: 5884
+        y: 1
+        width: 459
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e4f80d593becd47838cc8a29be1afb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_14
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 1
+        width: 457
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40508960ea88824a9d6e5c17855173e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_15
+      rect:
+        serializedVersion: 2
+        x: 6796
+        y: 1
+        width: 449
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ee5406d82e0ea479f2f04155032abe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_16
+      rect:
+        serializedVersion: 2
+        x: 7253
+        y: 0
+        width: 455
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba5793031ebb354a83fdfb344c1c927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_17
+      rect:
+        serializedVersion: 2
+        x: 7703
+        y: 0
+        width: 460
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69484fc63ba2f8c43998514b17d9a236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_18
+      rect:
+        serializedVersion: 2
+        x: 8157
+        y: 0
+        width: 450
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9606c17d372e7e4cb4d2693c9326c8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_19
+      rect:
+        serializedVersion: 2
+        x: 8611
+        y: 1
+        width: 450
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d53c51425db6b4fa5d2601c24db86f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_20
+      rect:
+        serializedVersion: 2
+        x: 9065
+        y: 1
+        width: 450
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519d8b1a19fce554082ad82edc5e9bb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_21
+      rect:
+        serializedVersion: 2
+        x: 9517
+        y: 1
+        width: 450
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702581fa96ef17a4a8fff7da8f388d1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_22
+      rect:
+        serializedVersion: 2
+        x: 9972
+        y: 1
+        width: 450
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5d479085787b6449f9d26f886d2787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_23
+      rect:
+        serializedVersion: 2
+        x: 10422
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc8bb853643cc844ba7f0cbb98fa24b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_24
+      rect:
+        serializedVersion: 2
+        x: 10871
+        y: 0
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b3e42a5017bc24e8aaecb6bb49d675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_25
+      rect:
+        serializedVersion: 2
+        x: 11326
+        y: 1
+        width: 440
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df73534f5f84dcd478696b146f37add7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_ALROGOTH_THE_SEEER_OF_DEATHLY_WINDS_IDLE-export_26
+      rect:
+        serializedVersion: 2
+        x: 11794
+        y: 7
+        width: 420
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dedad2596bef84cb86a6de3da914d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3c93956fac6d6ae47ae5aceeebc45252
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

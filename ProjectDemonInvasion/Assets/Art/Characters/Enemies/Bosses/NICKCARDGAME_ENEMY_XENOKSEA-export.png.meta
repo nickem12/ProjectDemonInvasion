@@ -1,0 +1,981 @@
+fileFormatVersion: 2
+guid: 4cbdadb16aa435347b331e3e5c45289d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NICKCARDGAME_ENEMY_XENOKSEA-export_0
+    21300002: NICKCARDGAME_ENEMY_XENOKSEA-export_1
+    21300004: NICKCARDGAME_ENEMY_XENOKSEA-export_2
+    21300006: NICKCARDGAME_ENEMY_XENOKSEA-export_3
+    21300008: NICKCARDGAME_ENEMY_XENOKSEA-export_4
+    21300010: NICKCARDGAME_ENEMY_XENOKSEA-export_5
+    21300012: NICKCARDGAME_ENEMY_XENOKSEA-export_6
+    21300014: NICKCARDGAME_ENEMY_XENOKSEA-export_7
+    21300016: NICKCARDGAME_ENEMY_XENOKSEA-export_8
+    21300018: NICKCARDGAME_ENEMY_XENOKSEA-export_9
+    21300020: NICKCARDGAME_ENEMY_XENOKSEA-export_10
+    21300022: NICKCARDGAME_ENEMY_XENOKSEA-export_11
+    21300024: NICKCARDGAME_ENEMY_XENOKSEA-export_12
+    21300026: NICKCARDGAME_ENEMY_XENOKSEA-export_13
+    21300028: NICKCARDGAME_ENEMY_XENOKSEA-export_14
+    21300030: NICKCARDGAME_ENEMY_XENOKSEA-export_15
+    21300032: NICKCARDGAME_ENEMY_XENOKSEA-export_16
+    21300034: NICKCARDGAME_ENEMY_XENOKSEA-export_17
+    21300036: NICKCARDGAME_ENEMY_XENOKSEA-export_18
+    21300038: NICKCARDGAME_ENEMY_XENOKSEA-export_19
+    21300040: NICKCARDGAME_ENEMY_XENOKSEA-export_20
+    21300042: NICKCARDGAME_ENEMY_XENOKSEA-export_21
+    21300044: NICKCARDGAME_ENEMY_XENOKSEA-export_22
+    21300046: NICKCARDGAME_ENEMY_XENOKSEA-export_23
+    21300048: NICKCARDGAME_ENEMY_XENOKSEA-export_24
+    21300050: NICKCARDGAME_ENEMY_XENOKSEA-export_25
+    21300052: NICKCARDGAME_ENEMY_XENOKSEA-export_26
+    21300054: NICKCARDGAME_ENEMY_XENOKSEA-export_27
+    21300056: NICKCARDGAME_ENEMY_XENOKSEA-export_28
+    21300058: NICKCARDGAME_ENEMY_XENOKSEA-export_29
+    21300060: NICKCARDGAME_ENEMY_XENOKSEA-export_30
+    21300062: NICKCARDGAME_ENEMY_XENOKSEA-export_31
+    21300064: NICKCARDGAME_ENEMY_XENOKSEA-export_32
+    21300066: NICKCARDGAME_ENEMY_XENOKSEA-export_33
+    21300068: NICKCARDGAME_ENEMY_XENOKSEA-export_34
+    21300070: NICKCARDGAME_ENEMY_XENOKSEA-export_35
+    21300072: NICKCARDGAME_ENEMY_XENOKSEA-export_36
+    21300074: NICKCARDGAME_ENEMY_XENOKSEA-export_37
+    21300076: NICKCARDGAME_ENEMY_XENOKSEA-export_38
+    21300078: NICKCARDGAME_ENEMY_XENOKSEA-export_39
+    21300080: NICKCARDGAME_ENEMY_XENOKSEA-export_40
+    21300082: NICKCARDGAME_ENEMY_XENOKSEA-export_41
+    21300084: NICKCARDGAME_ENEMY_XENOKSEA-export_42
+    21300086: NICKCARDGAME_ENEMY_XENOKSEA-export_43
+    21300088: NICKCARDGAME_ENEMY_XENOKSEA-export_44
+    21300090: NICKCARDGAME_ENEMY_XENOKSEA-export_45
+    21300092: NICKCARDGAME_ENEMY_XENOKSEA-export_46
+    21300094: NICKCARDGAME_ENEMY_XENOKSEA-export_47
+    21300096: NICKCARDGAME_ENEMY_XENOKSEA-export_48
+    21300098: NICKCARDGAME_ENEMY_XENOKSEA-export_49
+    21300100: NICKCARDGAME_ENEMY_XENOKSEA-export_50
+    21300102: NICKCARDGAME_ENEMY_XENOKSEA-export_51
+    21300104: NICKCARDGAME_ENEMY_XENOKSEA-export_52
+    21300106: NICKCARDGAME_ENEMY_XENOKSEA-export_53
+    21300108: NICKCARDGAME_ENEMY_XENOKSEA-export_54
+    21300110: NICKCARDGAME_ENEMY_XENOKSEA-export_55
+    21300112: NICKCARDGAME_ENEMY_XENOKSEA-export_56
+    21300114: NICKCARDGAME_ENEMY_XENOKSEA-export_57
+    21300116: NICKCARDGAME_ENEMY_XENOKSEA-export_58
+    21300118: NICKCARDGAME_ENEMY_XENOKSEA-export_59
+    21300120: NICKCARDGAME_ENEMY_XENOKSEA-export_60
+    21300122: NICKCARDGAME_ENEMY_XENOKSEA-export_61
+    21300124: NICKCARDGAME_ENEMY_XENOKSEA-export_62
+    21300126: NICKCARDGAME_ENEMY_XENOKSEA-export_63
+    21300128: NICKCARDGAME_ENEMY_XENOKSEA-export_64
+    21300130: NICKCARDGAME_ENEMY_XENOKSEA-export_65
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2492b35b22d13ea4ea220098052c59bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_1
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6b1bca61d74814087f0f731ec43f08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_2
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2407d840b768ea48a00425f21851dda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_3
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6783c9c75a600104b9a0705f17ca3e21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_4
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca554c064e306404989ecae84a10d8d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_5
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29bd5c4eff1fb54a9c6f2114cf86d74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_7
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 46
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe47f721c308814aa4c7c2751a9d536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_9
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779bf9e35f8e45340bf787ca7c807fee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_23
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c78816602bb194f89166b5fd2bcb86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_35
+      rect:
+        serializedVersion: 2
+        x: 11736
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eb3cf9e8ca71140ae5b6b142669f05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_36
+      rect:
+        serializedVersion: 2
+        x: 12070
+        y: 46
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0528f9b70efc114b9a46d054a5a4365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_37
+      rect:
+        serializedVersion: 2
+        x: 12401
+        y: 46
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0145563330e5b1a4990cb88b5eb35612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_38
+      rect:
+        serializedVersion: 2
+        x: 12735
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfaff9edffd9214086a47ed6998075e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_39
+      rect:
+        serializedVersion: 2
+        x: 13068
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369b2f1c7a3b08046a1ef0039749342e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_40
+      rect:
+        serializedVersion: 2
+        x: 13401
+        y: 46
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6c3ad46ae8d8d48a4eabbcca5cb3d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_41
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 47
+        width: 156
+        height: 220
+      alignment: 9
+      pivot: {x: 0.5234878, y: 0.60988414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26de170a7e18d7a40b3cbbc584dda2cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_42
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 46
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7835a825de5a0864a9d550d35e4e4a8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_43
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 48
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cefa6c1d2d3bff46a7564a01b30d136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_44
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4416c5dfc8477654990cfeb8ae2fd58e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_45
+      rect:
+        serializedVersion: 2
+        x: 4078
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c40c70d24b72649bd24c9d92ada4b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_46
+      rect:
+        serializedVersion: 2
+        x: 4409
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b876fa62d6361df4682e9841635d1c96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_47
+      rect:
+        serializedVersion: 2
+        x: 4742
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f090665a679d7884ca812bd1ea8ab04d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_48
+      rect:
+        serializedVersion: 2
+        x: 5074
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b0f8c6bed3717419212bd3c44bccc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_49
+      rect:
+        serializedVersion: 2
+        x: 5407
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64880340a3bb96d4b838a45a238d8ccd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_50
+      rect:
+        serializedVersion: 2
+        x: 5740
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b081d4e71262bc4e8cb167fbdd07b3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_51
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaf1977bb8d9c74b9851c9e08453358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_52
+      rect:
+        serializedVersion: 2
+        x: 6407
+        y: 48
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26c856c9ad788940814a58a233f1d58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_53
+      rect:
+        serializedVersion: 2
+        x: 6741
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca34443544cebab4b90a030d3ce1b7a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_54
+      rect:
+        serializedVersion: 2
+        x: 7074
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a50707bce95cc34ab17eece47493094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_55
+      rect:
+        serializedVersion: 2
+        x: 7407
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3b897bb80028e43ab631d5c782cc23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_56
+      rect:
+        serializedVersion: 2
+        x: 8073
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01794b5dc6794f40b35c58422ea04cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_57
+      rect:
+        serializedVersion: 2
+        x: 8405
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b50107c6c004b47b0fa7e4a82c5218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_58
+      rect:
+        serializedVersion: 2
+        x: 8738
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2544eaf5c3c93064da79a56f0c7bcecc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_59
+      rect:
+        serializedVersion: 2
+        x: 9072
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a064c4db5b4a354a9a26c36dca78a2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_60
+      rect:
+        serializedVersion: 2
+        x: 9405
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c883ee6e33a689b4982b6cb91f352299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_61
+      rect:
+        serializedVersion: 2
+        x: 9739
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542341fbe90aab541ac68af87529039c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_62
+      rect:
+        serializedVersion: 2
+        x: 10071
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3394dc4fc171f0244a3dab81bebff06d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_63
+      rect:
+        serializedVersion: 2
+        x: 10736
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4abc28c4c33a5a41924818c175e4e6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_64
+      rect:
+        serializedVersion: 2
+        x: 11070
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a22602fcc41324e8443d52deff4008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_65
+      rect:
+        serializedVersion: 2
+        x: 11403
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d466f45edae386f45b438fb591833ec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_XENOKSEA-export_6
+      rect:
+        serializedVersion: 2
+        x: 10404
+        y: 47
+        width: 156
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0aa67e1dae47d4f844217fc658d54b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 873110bb42783fd4a96fc09a56ef8ea4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

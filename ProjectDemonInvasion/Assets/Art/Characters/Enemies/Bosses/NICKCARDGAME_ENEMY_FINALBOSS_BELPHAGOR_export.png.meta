@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 49f5da5e912cbf64690b47a3689cb2c1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_0
+    21300002: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_1
+    21300004: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_2
+    21300006: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_3
+    21300008: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_4
+    21300010: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_5
+    21300012: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_6
+    21300014: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_7
+    21300016: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_8
+    21300018: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_9
+    21300020: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_10
+    21300022: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_11
+    21300024: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_12
+    21300026: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_13
+    21300028: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_14
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 36
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a2e42f4528a7a459e0559b5b1ae4f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_1
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 35
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d109248bf4584d468c1fb0a32d26f27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_2
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 36
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f78282f4d4899f49b99339d062437a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_3
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 36
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166b37fb15a4adf42bb806f7ffe529be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 36
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b4fe719dedcaa4fb6566e071242d5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_5
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 37
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80666c433d11ee459a32c3bdfed8264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_6
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 36
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d37da021f1d0c46b3731b45b839f32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_7
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 36
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bfc47cb40d38f41b4cdc8e57adecdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_8
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 36
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c26f07739a279841a46b0d8d73acb5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_9
+      rect:
+        serializedVersion: 2
+        x: 5335
+        y: 35
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe93928fe6aa3ab4399de3d545e98387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_10
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 35
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8271b6fa55ddf5d40bbfe4d21f3111d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_11
+      rect:
+        serializedVersion: 2
+        x: 6510
+        y: 37
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971af013f3c723447bb29e2bea076826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_12
+      rect:
+        serializedVersion: 2
+        x: 7095
+        y: 35
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1882f9b4fb1d6b647928622bba42ac90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_13
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 36
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f42158aae4170943b3ae6fb5d75bc4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_FINALBOSS_BELPHAGOR_export_14
+      rect:
+        serializedVersion: 2
+        x: 8260
+        y: 36
+        width: 463
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc2ed11d99d94c49b6cd1ce94a34566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: acae17300b390fc418398288ce573efe
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

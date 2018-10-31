@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: 6f2f9561a4c8208439f2dbdb6d77b7ec
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_0
+    21300002: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_1
+    21300004: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_2
+    21300006: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_3
+    21300008: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_4
+    21300010: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_5
+    21300012: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_6
+    21300014: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_7
+    21300016: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_8
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 79
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a48b5c8730c16468f09e0d77a9b51c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_1
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 77
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cdb0baedf8b3c419c6ab827be91c13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_2
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 73
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a87bc5877fa55447ab05bf053c96e38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_3
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 68
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9db6a5a96e349419dca8bec3efb8dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_4
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 65
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682cccd126e040f45be323a9d572c22c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_5
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 68
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235721533d34ac54c9a0768fcd53fa69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_6
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 73
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b85e03309bbcf4abaa455c181154d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_7
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 77
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f752f3cfb25d2d4888ebcf2a2c73791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NICKCARDGAME_ENEMY_QUEEN_OF_THE_DARKEST_REEF_DRULETHUR-export_8
+      rect:
+        serializedVersion: 2
+        x: 4435
+        y: 79
+        width: 432
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e82956b60175e740a35b0276886fcfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 47dde63a82af1574190749b5e6f786f2
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
