@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 342}
   m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
-  controlID: 153
+  controlID: 64
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 613}
   m_MaxSize: {x: 14004, y: 18063}
   vertical: 0
-  controlID: 150
+  controlID: 61
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 613}
   m_MaxSize: {x: 10002, y: 18063}
   vertical: 1
-  controlID: 151
+  controlID: 62
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 342}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 0
-  controlID: 152
+  controlID: 63
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1231,7 +1231,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 26458
+  m_LastSelectedObjectID: 16324
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1294,20 +1294,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations/Enemies/Turrets/Water
+    - Assets/Scripts/Player
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations/Enemies/Turrets/Water
+  - Assets/Scripts/Player
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Work\Personal\ProjectDemonInvasion
+  m_LastProjectPath: D:\Work\Repos\ProjectDemonInvasion\ProjectDemonInvasion
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: 2c3c0000
-    m_LastClickedID: 15404
-    m_ExpandedIDs: 00000000842c00003e2d00003633000060330000103c0000ae560000
+    scrollPos: {x: 0, y: 147}
+    m_SelectedIDs: 5a0b0000
+    m_LastClickedID: 2906
+    m_ExpandedIDs: 00000000520b00000c0c0000081200003212000036120000e61a000084350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1335,7 +1335,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000842c00003e2d00003633000060330000103c0000ae560000
+    m_ExpandedIDs: 00000000520b00000c0c00000812000032120000e61a000084350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300008e4f00009e3200003a500000f650000024520000a03f0000103500004c3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1451,9 +1451,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: ba080000
     m_LastClickedID: 0
-    m_ExpandedIDs: 2af8ffff00000000
+    m_ExpandedIDs: e4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1508,9 +1508,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.0641785, y: 0.2963394, z: 0.7204241}
+    m_Target: {x: 10.465658, y: 1.2862175, z: 0.9899553}
     speed: 2
-    m_Value: {x: 7.0641785, y: 0.2963394, z: 0.7204241}
+    m_Value: {x: 10.465658, y: 1.2862175, z: 0.9899553}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1542,9 +1542,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 17.20033
+    m_Target: 19.868221
     speed: 2
-    m_Value: 17.20033
+    m_Value: 19.868221
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1591,19 +1591,19 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -548.5715
-    m_HBaseRangeMax: 548.5715
-    m_VBaseRangeMin: -308.57144
-    m_VBaseRangeMax: 308.57144
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1627,10 +1627,10 @@ MonoBehaviour:
       width: 1465
       height: 407
     m_MinimalGUI: 1
-  m_defaultScale: 0.6594907
+  m_defaultScale: 0.37685186
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 2563.75, y: 742}
+  m_LastWindowPixelSize: {x: 1465, y: 424}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
