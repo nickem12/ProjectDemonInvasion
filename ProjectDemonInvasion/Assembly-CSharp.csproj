@@ -62,19 +62,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy\EnemyClass.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyEncounter.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyInformation.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\Enemy\RandomEncounter.cs" />
     <Compile Include="Assets\Scripts\Enemy\SpawnEnemy.cs" />
     <Compile Include="Assets\Scripts\General\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\General\Card.cs" />
+    <Compile Include="Assets\Scripts\General\ClickCard.cs" />
     <Compile Include="Assets\Scripts\General\CombatManager.cs" />
     <Compile Include="Assets\Scripts\General\DisplayCard.cs" />
     <Compile Include="Assets\Scripts\General\Entity.cs" />
+    <Compile Include="Assets\Scripts\General\ExitGame.cs" />
+    <Compile Include="Assets\Scripts\General\MapTransfering.cs" />
+    <Compile Include="Assets\Scripts\General\ObjectShaker.cs" />
     <Compile Include="Assets\Scripts\General\ScrollScript.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerClass.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInformtion.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\TileMapGeneration\RandomMineGeneration.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />

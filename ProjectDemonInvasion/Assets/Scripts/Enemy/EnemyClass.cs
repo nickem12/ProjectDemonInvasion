@@ -81,6 +81,14 @@ public class EnemyClass:Entity {
         Def = Random.Range(10, 15);
         Speed = Random.Range(10, 15);
         Int = Random.Range(1, 5);
+        if(rng<1)
+        {
+            level = 1;
+        }
+        else
+        {
+            level = rng;
+        }
         LevelUp();
     }
     void InitialCreateDeck(string type)
@@ -251,6 +259,11 @@ public class EnemyClass:Entity {
         hand.RemoveAt(index);
         hand.Add(deck[deckIndex]);
         deckIndex++;
+        if(deckIndex == deck.Count)
+        {
+            ShuffleDeck();
+            deckIndex = 0;
+        }
     }
     public override void LevelUp()
     {

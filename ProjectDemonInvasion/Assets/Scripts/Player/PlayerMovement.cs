@@ -57,8 +57,17 @@ public class PlayerMovement : MonoBehaviour {
             anim.SetFloat("LastMoveY", lastMove.y);
             if (Input.GetKeyDown("space"))
             {
-                manager.StartCombat("Bug", WeaknessType.NORMAL);
+                manager.StartCombat("WaterEye", WeaknessType.NORMAL);
             }
+        }
+        else
+        {
+            myBody.velocity = new Vector2(0f, 0f);
+            anim.SetFloat("MoveX", 0);
+            anim.SetFloat("MoveY", 0);
+            anim.SetBool("PlayerMoving", false);
+            anim.SetFloat("LastMoveX", lastMove.x);
+            anim.SetFloat("LastMoveY", lastMove.y);
         }
     }
 }

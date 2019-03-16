@@ -244,6 +244,10 @@ public class PlayerInformtion : MonoBehaviour {
             hand.RemoveAt(index);
             hand.Add(deck[deckIndex]);
             deckIndex++;
+            if(deckIndex>=deck.Count)
+            {
+                deckIndex = 0;
+            }
             DisplayHand();
         }
 
@@ -256,7 +260,7 @@ public class PlayerInformtion : MonoBehaviour {
         {
             string element = hand[w].element;
             string cardType = hand[w].cardName;
-            string combo = hand[w].comboNum.ToString();
+           
             for (int i = 0; i < 7; i++)
             {
                 for (int j = 0; j < cardsForHand[0].transform.GetChild(0).gameObject.transform.GetChild(i).gameObject.transform.childCount; j++)
@@ -265,9 +269,13 @@ public class PlayerInformtion : MonoBehaviour {
                 }
                 cardsForHand[w].transform.GetChild(0).gameObject.transform.GetChild(i).gameObject.SetActive(false);
             }
+            for(int a = 0;a<5;a++)
+            {
+                cardsForHand[w].transform.GetChild(1).gameObject.transform.GetChild(a).gameObject.SetActive(false);
+            }
             cardsForHand[w].transform.GetChild(0).gameObject.transform.Find(element).gameObject.SetActive(true);
             cardsForHand[w].transform.GetChild(0).gameObject.transform.Find(element).gameObject.transform.Find(cardType).gameObject.SetActive(true);
-            cardsForHand[w].transform.Find("ComboNum").gameObject.GetComponent<Text>().text = combo;
+            cardsForHand[w].transform.GetChild(1).gameObject.transform.GetChild(hand[w].comboNum - 1).gameObject.SetActive(true);
         }
     }
 }

@@ -2,19 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CombatManager : MonoBehaviour {
 
     public GameObject combatWindow;
     public GameObject[] enemyUIList = new GameObject[3];
     public Text timerText;
-
+    public List<GameObject> allEnemies = new List<GameObject>();
+    public List<GameObject> playerPositions = new List<GameObject>();
+    public GameObject[] allPlayerList = new GameObject[3];
+    public Camera mCamera;
+    public GameObject cCamera;
     public bool InCombat;
 
     float timer;
     int listIndex;
-    List<Entity> entityList = new List<Entity>();
+    List<Entity> sortedList = new List<Entity>();
+    List<GameObject> displayEnemies = new List<GameObject>();
+    List<GameObject> displayPlayers = new List<GameObject>();
     List<Entity> unsortedList = new List<Entity>();
+    List<Entity> deadEnemies = new List<Entity>();
     List<Entity> playerList = new List<Entity>();
     PlayerInformtion player;
     PlayerClass playerEntity;
@@ -24,21 +32,22 @@ public class CombatManager : MonoBehaviour {
     int enemyNum;
     bool playerDead;
     public int fieldEnemies;
+    int maxEnemies;
+
     #region Main Methods
+
     void Start () {
 
         InCombat = false;
         playerAtk = false;
         playerDead = false;
-        timer = 30f;
+        timer = 15f;
         comboCon = 0;
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInformtion>();
-        playerEntity = new PlayerClass(200, 15, 8, 100, 0, "Qwerty", WeaknessType.NORMAL, 1);
+        playerEntity = new PlayerClass(200, 15, 8, 100, 12, "Knight", WeaknessType.NORMAL, 1);
         playerList.Add(playerEntity);
         fieldEnemies = 0;
-            //StartCombat("Bug", 10, WeaknessType.NORMAL);
         }
-    // Update is called once per frame
 	void Update () {
 
         if (InCombat)
@@ -49,13 +58,14 @@ public class CombatManager : MonoBehaviour {
     public void StartCombat(string EnemyName, WeaknessType type)
     {
         //Spawn the Enemies
-        enemyNum = Random.Range(1, 4);
+        enemyNum = Random.Range(1, 1 + playerList.Count);
+        maxEnemies = playerList.Count + 1;
         int i = 0;
         for(i = 0; i < enemyNum; i++)
         {
             EnemyClass e = new EnemyClass(EnemyName, type, playerList[0].level);
             e.comboLength = player.comboLength;
-            entityList.Add(e);
+            sortedList.Add(e);
             unsortedList.Add(e);
         }
         //Pick the order
@@ -63,36 +73,56 @@ public class CombatManager : MonoBehaviour {
         {
             if(playerList[i].currentHP>0)
             {
-                entityList.Add(playerList[i]);
-                unsortedList.Add(playerList[i]);
+                sortedList.Add(playerList[i]);
             }
         }
-        entityList.Sort(delegate(Entity a, Entity b){
+        sortedList.Sort(delegate(Entity a, Entity b){
             return a.Speed.CompareTo(b.Speed);
         });
         
-        foreach(Entity e in entityList)
+        foreach(Entity e in sortedList)
         {
             e.StartCombat();
         }
-        listIndex = entityList.Count - 1;
+        listIndex = sortedList.Count - 1;
         player.StartCombat();
         //Start the timers
         InCombat = true;
-        combatWindow.SetActive(true);
-        DisplayEnemy();
-        timerText.text = timer.ToString();
+
+        TransitionToCombat();
+        if (sortedList[listIndex].entityType == "Enemy")
+        {
+            for (i = 0; i < unsortedList.Count; i++)
+            {
+                if (unsortedList[i] == sortedList[listIndex])
+                {
+                    DisplayEnemyTurn(i);
+                }
+            }
+        }
+        else
+        {
+            for (i = 0; i < playerList.Count; i++)
+            {
+                if (playerList[i] == sortedList[listIndex])
+                {
+                    DisplayPlayerTurn(i);
+                }
+            }
+        }
+        //timerText.text = timer.ToString();
     }
     public void StartCombat(string EnemyName, WeaknessType type, int startLevel)
     {
         //Spawn the Enemies
-        enemyNum = Random.Range(1, 4);
+        enemyNum = Random.Range(1, playerList.Count + 1);
+        maxEnemies = playerList.Count + 1;
         int i = 0;
         for (i = 0; i < enemyNum; i++)
         {
             EnemyClass e = new EnemyClass(EnemyName, type, startLevel);
             e.comboLength = player.comboLength;
-            entityList.Add(e);
+            sortedList.Add(e);
             unsortedList.Add(e);
         }
         //Pick the order
@@ -100,39 +130,57 @@ public class CombatManager : MonoBehaviour {
         {
             if (playerList[i].currentHP > 0)
             {
-                entityList.Add(playerList[i]);
-                unsortedList.Add(playerList[i]);
+                sortedList.Add(playerList[i]);
             }
         }
-        entityList.Sort(delegate (Entity a, Entity b) {
+        sortedList.Sort(delegate (Entity a, Entity b) {
             return a.Speed.CompareTo(b.Speed);
         });
 
-        foreach (Entity e in entityList)
+        foreach (Entity e in sortedList)
         {
             e.StartCombat();
         }
-        listIndex = entityList.Count - 1;
+        listIndex = sortedList.Count - 1;
         player.StartCombat();
         //Start the timers
         InCombat = true;
-        combatWindow.SetActive(true);
-        DisplayEnemy();
-        timerText.text = timer.ToString();
+        TransitionToCombat();
+        if (sortedList[listIndex].entityType == "Enemy")
+        {
+            for (i = 0; i < unsortedList.Count; i++)
+            {
+                if (unsortedList[i] == sortedList[listIndex])
+                {
+                    DisplayEnemyTurn(i);
+                }
+            }
+        }
+        else
+        {
+            for (i = 0; i < playerList.Count; i++)
+            {
+                if (playerList[i] == sortedList[listIndex])
+                {
+                    DisplayPlayerTurn(i);
+                }
+            }
+        }
+        //timerText.text = timer.ToString();
     }
     void CombatUpdate()
     {
         //Tick the game timer
-        timerText.text = timer.ToString();
+        //timerText.text = timer.ToString();
         timer -= Time.deltaTime;
         if (timer<= 0)
         {
-            timer = 30f;
+            timer = 15f;
 
-            if (entityList[listIndex].entityType == "Player")
+            if (sortedList[listIndex].entityType == "Player")
             {
                 playerAtk = true;
-                foreach(Entity e in entityList)
+                foreach(Entity e in sortedList)
                 {
                     e.CombatUpdate();
                 }
@@ -140,43 +188,79 @@ public class CombatManager : MonoBehaviour {
             else
             {
                 playerAtk = false;
-                entityList[listIndex].enemyAtk = true;
-                foreach(Entity e in entityList)
+                sortedList[listIndex].enemyAtk = true;
+                foreach(Entity e in sortedList)
                 {
                     e.CombatUpdate();
                 }
             }
             DamageCalculation();
-            foreach (Entity e in entityList)
+            Debug.Log("Player HP = " + playerList[0].currentHP.ToString());
+            if(unsortedList.Count > 0)
+            {
+                Debug.Log("Enemy HP = " + unsortedList[0].currentHP.ToString());
+            }
+            listIndex -= 1;
+            if (listIndex < 0)
+            {
+                listIndex = sortedList.Count - 1;
+            }
+            if (CheckEndCombat())
+            {
+                InCombat = false;
+                if (!playerDead)
+                {
+                    EndCombatAward();
+                    TransitionOutOfCombat();
+                }
+                else
+                {
+                    SceneManager.LoadScene("EndScene");
+                }
+            }
+            else
+            {
+                if (sortedList[listIndex].entityType == "Enemy")
+                {
+                    for (int i = 0; i < unsortedList.Count; i++)
+                    {
+                        if (unsortedList[i] == sortedList[listIndex])
+                        {
+                            DisplayEnemyTurn(i);
+                        }
+                    }
+                }
+                else
+                {
+                    for (int i = 0; i < playerList.Count; i++)
+                    {
+                        if (playerList[i] == sortedList[listIndex])
+                        {
+                            DisplayPlayerTurn(i);
+                        }
+                    }
+                }
+            }
+            foreach (Entity e in sortedList)
             {
                 e.played.Clear();
             }
             player.played.Clear();
-            listIndex -= 1;
-            if(listIndex<0)
-            {
-                listIndex = entityList.Count - 1;
-            }  
-            if(CheckEndCombat())
-            {
-                InCombat = false;
-                if (!playerDead) EndCombatAward();
-            }
         }
     }
     void EndCombatAward()
     {
         int rewardEXP = 0;
         //Award EXP
-        for(int i = 0; i<unsortedList.Count;i++)
+        for(int i = 0; i<deadEnemies.Count;i++)
         {
-            if(unsortedList[i].level - playerList[0].level >-1)
+            if(deadEnemies[i].level - playerList[0].level >-1)
             {
-                rewardEXP += (playerList[0].EXP / 15) * (1 / 2 * Mathf.Abs(unsortedList[i].level - playerList[0].level));
+                rewardEXP += (playerList[0].EXP / 15) * (1 / 2 * Mathf.Abs(deadEnemies[i].level - playerList[0].level));
             }
-            if (unsortedList[i].level - playerList[0].level < 0)
+            if (deadEnemies[i].level - playerList[0].level < 0)
             {
-                rewardEXP += (playerList[0].EXP / 15) / (1 / 2 * Mathf.Abs(unsortedList[i].level - playerList[0].level));
+                rewardEXP += (playerList[0].EXP / 15) / (1 / 2 * Mathf.Abs(deadEnemies[i].level - playerList[0].level));
             }
         }
         for(int i = 0; i<playerList.Count;i++)
@@ -186,17 +270,19 @@ public class CombatManager : MonoBehaviour {
         }
 
         //Award Loot
-        for(int i = 0; i<unsortedList.Count;i++)
+        for(int i = 0; i<deadEnemies.Count;i++)
         {
-            GenerateLoot(unsortedList[i]);
+            GenerateLoot(deadEnemies[i]);
         }
         DisplayRewards();
-        entityList.Clear();
+        deadEnemies.Clear();
+        sortedList.Clear();
         unsortedList.Clear();
+        displayPlayers.Clear();
     }
-    #endregion
-    // Use this for initialization
 
+    #endregion
+   
     #region Utility Methods
 
     bool CheckEndCombat()
@@ -204,9 +290,9 @@ public class CombatManager : MonoBehaviour {
         int enemiesLeft = 0;
         int playerLeft = 0;
 
-        for(int i = 0;i<entityList.Count;i++)
+        for(int i = 0;i<sortedList.Count;i++)
         {
-            if (entityList[i].entityType == "Player")
+            if (sortedList[i].entityType == "Player")
             {
                 playerLeft += 1;
             }
@@ -231,6 +317,7 @@ public class CombatManager : MonoBehaviour {
         float enemyMult = 1;
         float playerMult = 1;
 
+        // Check the combo of the Player and his target.
         if (playerAtk)
         {
             if(CheckCombo(unsortedList[player.targetIndex].played))
@@ -243,9 +330,10 @@ public class CombatManager : MonoBehaviour {
                 playerMult = 1 + (comboCon * 0.1f) + ((comboCon - 2) * 0.1f);
             }
         }
+        //Checks the combo of the enemy attacking and the player.
         else
         {
-            if (CheckCombo(entityList[listIndex].played))
+            if (CheckCombo(sortedList[listIndex].played))
             {
                 enemyMult = 1 + (comboCon * 0.1f) + ((comboCon - 2) * 0.1f);
             }
@@ -255,90 +343,126 @@ public class CombatManager : MonoBehaviour {
                 playerMult = 1 + (comboCon * 0.1f) + ((comboCon - 2) * 0.1f);
             }
         }
+
+        //Execute the damge and healing
+
+        //Checking the player Atk against the enemy Def
         if(playerAtk)
         {
-            for(int i = 0;i<player.comboLength;i++)
+            int Atk = 0;
+            int Def = 0;
+            int PHeal = 0;
+            int EHeal = 0;
+            for(int i = 0;i<player.played.Count;i++)
             {
-                if(i < player.played.Count)
+                Atk += GetValue(sortedList[listIndex].Atk, playerMult, 1f, player.played[i].damage);
+                if(sortedList[listIndex].Atk>0)
                 {
-                    int Atk = GetValue(entityList[listIndex].Atk, playerMult, 1f, player.played[i].damage);
-                    int Def = GetValue(unsortedList[player.targetIndex].Def, enemyMult, 1, unsortedList[player.targetIndex].played[i].def);
-                    int Damage = Atk - Def;
-                    entityList[player.targetIndex].currentHP -= Damage;
-                    if(entityList[player.targetIndex].currentHP<=0)
-                    {
-                        entityList.RemoveAt(player.targetIndex);
-                        player.targetIndex = 0;
-                        return;
-                    }
+                    ShakeObject();
                 }
-                else
+                PHeal += player.played[i].restore;
+            }
+            for(int j =0;j< unsortedList[player.targetIndex].played.Count;j++)
+            {
+                Def += GetValue(unsortedList[player.targetIndex].Def, enemyMult, 1, unsortedList[player.targetIndex].played[j].def);
+                EHeal += unsortedList[player.targetIndex].played[j].restore;
+            }
+            for (int m = 0; m < playerList.Count; m++)
+            {
+                if (sortedList[listIndex] == playerList[m])
                 {
-                    break;
+                    playerList[m].currentHP += PHeal;
+                    if (playerList[m].currentHP > playerList[m].maxHP)
+                    {
+                        playerList[m].currentHP = playerList[m].maxHP;
+                    }
                 }
             }
+            unsortedList[player.targetIndex].currentHP += EHeal;
+            if(unsortedList[player.targetIndex].currentHP> unsortedList[player.targetIndex].maxHP)
+            {
+                unsortedList[player.targetIndex].currentHP = unsortedList[player.targetIndex].maxHP;
+            }
+            int Damage = Atk - Def;
+            if(Damage>0)
+            {
+                unsortedList[player.targetIndex].currentHP -= Damage;
+                if (unsortedList[player.targetIndex].currentHP <= 0)
+                {
+                    for (int m = sortedList.Count - 1; m >= 0; m--)
+                    {
+                        if (sortedList[m] == unsortedList[player.targetIndex])
+                        {
+                            sortedList.RemoveAt(m);
+                            break;
+                        }
+                    }
+                    deadEnemies.Add(unsortedList[player.targetIndex]);
+                    unsortedList.RemoveAt(player.targetIndex);
+                    Destroy(displayEnemies[player.targetIndex]);
+                    player.targetIndex = 0;
+                }
+                Debug.Log("Player Damage = " + Damage.ToString());
+            }
+            
         }
+        //Checking the Enemy Atk against Player Def
         else
         {
-            int target = Random.Range(enemyNum, entityList.Count);
-            for (int i = 0; i < player.comboLength; i++)
+            int target = GetTarget();
+            int Atk = 0;
+            int Def = 0;
+            int PHeal = 0;
+            int EHeal = 0;
+            for(int i = 0; i < sortedList[listIndex].played.Count; i++)
             {
-                if (i < player.played.Count)
+                Atk += GetValue(sortedList[listIndex].Atk, enemyMult, 1f, sortedList[listIndex].played[i].damage);
+                if(sortedList[listIndex].Atk>0)
                 {
-                    int Atk = GetValue(entityList[listIndex].Atk, enemyMult, 1f, entityList[listIndex].played[i].damage);
-                    int Def = GetValue(unsortedList[target].Def, enemyMult, 1, player.played[i].def);
-                    int Damage = Atk - Def;
-                    unsortedList[target].currentHP -= Damage;
-                    if(unsortedList[target].currentHP<=0)
+                    ShakeObject();
+                }
+                EHeal += sortedList[listIndex].played[i].restore;
+            }
+            for(int j = 0;j<playerList[target].played.Count;j++)
+            {
+                Def += GetValue(playerList[target].Def, playerMult, 1, player.played[j].def);
+                PHeal += playerList[target].played[j].restore;
+            }
+            for (int m = 0; m < unsortedList.Count; m++)
+            {
+                if (sortedList[listIndex] == unsortedList[m])
+                {
+                    unsortedList[m].currentHP += EHeal;
+                    if (unsortedList[m].currentHP > unsortedList[m].maxHP)
                     {
-                        for(int j = 0; j<playerList.Count;j++)
-                        {
-                            if(unsortedList[target].PlayerName == playerList[j].PlayerName)
-                            {
-                                playerList[j].currentHP = 0;
-                                break;
-                            }
-                        }
-                        for(int j=0;j<entityList.Count;j++)
-                        {
-                            if (unsortedList[target].PlayerName == entityList[j].PlayerName)
-                            {
-                                entityList.RemoveAt(j);
-                                break;
-                            }
-                        }
-                        unsortedList.RemoveAt(target);
-                        return;
+                        unsortedList[m].currentHP = unsortedList[m].maxHP;
                     }
                 }
-                else
+            }
+            playerList[target].currentHP += PHeal;
+            if(playerList[target].currentHP>playerList[target].maxHP)
+            {
+                playerList[target].currentHP = playerList[target].maxHP;
+            }
+            int Damage = (Atk - Def)/maxEnemies;
+            if(Damage>0)
+            {
+                playerList[target].currentHP -= Damage;
+                if(playerList[target].currentHP<=0)
                 {
-                    int Atk = GetValue(entityList[listIndex].Atk, enemyMult, 1f, entityList[listIndex].played[i].damage);
-                    int Def = GetValue(unsortedList[target].Def, enemyMult, 1, 0);
-                    int Damage = Atk - Def;
-                    unsortedList[target].currentHP -= Damage;
-                    if (unsortedList[target].currentHP <= 0)
+                    for(int m = sortedList.Count-1;m>=0;m--)
                     {
-                        for (int j = 0; j < playerList.Count; j++)
+                        if(sortedList[m] == playerList[target])
                         {
-                            if (unsortedList[target].PlayerName == playerList[j].PlayerName)
-                            {
-                                playerList[j].currentHP = 0;
-                                break;
-                            }
+                            sortedList.RemoveAt(m);
+                            break;
                         }
-                        for (int j = 0; j < entityList.Count; j++)
-                        {
-                            if (unsortedList[target].PlayerName == entityList[j].PlayerName)
-                            {
-                                entityList.RemoveAt(j);
-                                break;
-                            }
-                        }
-                        unsortedList.RemoveAt(target);
-                        return;
                     }
+                    playerDead = true;
                 }
+                Debug.Log("Enemy Damage = " + Damage.ToString());
+                Debug.Log("Enemy Atk = " + Atk.ToString());
+                Debug.Log("Enemy Multiplier = " + enemyMult.ToString());
             }
         }
 
@@ -511,31 +635,142 @@ public class CombatManager : MonoBehaviour {
         }
         return itemName;
     }
+    int GetTarget()
+    {
+        int targetIndex = 0;
+        int playerCount = playerList.Count;
+        bool valideTarget = true;
+        targetIndex = Random.Range(0, playerCount);
+        if(playerList[targetIndex].currentHP<=0)
+        {
+            targetIndex = 0;
+            do
+            {
+                if(playerList[targetIndex].currentHP>0)
+                {
+                    valideTarget = false;
+                }
+                else
+                {
+                    targetIndex++;
+                }
+            } while (valideTarget);
+        }
+        return targetIndex;
+    }
+
     #endregion
 
+    #region Display Functions
+
+    void TransitionToCombat()
+    {
+        combatWindow.SetActive(true);
+        DisplayEnemy();
+        DisplayPlayers();
+        mCamera.gameObject.SetActive(false);
+    }
+    void TransitionOutOfCombat()
+    {
+        mCamera.gameObject.SetActive(true);
+        combatWindow.SetActive(false);
+    }
     void DisplayEnemy()
     {
-        for(int i = 0; i<3;i++)
-        {
-            for(int j = 0;j<enemyUIList[i].transform.childCount;j++)
-            {
-                enemyUIList[i].transform.GetChild(j).gameObject.SetActive(false);
-            }
-        }
+        int counter = 0;
         switch(enemyNum)
         {
             case 1:
-                enemyUIList[1].transform.Find(unsortedList[0].PlayerName).gameObject.SetActive(true);
+                do
+                {
+                    if(unsortedList[0].PlayerName == allEnemies[counter].name)
+                    {
+                        GameObject enemy = Instantiate(allEnemies[counter], enemyUIList[1].transform.position, Quaternion.identity);
+                        displayEnemies.Add(enemy);
+                        counter = -10;
+                    }
+                    counter++;
+                } while (counter >= 0);
                 break;
             case 2:
-                enemyUIList[0].transform.Find(unsortedList[0].PlayerName).gameObject.SetActive(true);
-                enemyUIList[2].transform.Find(unsortedList[1].PlayerName).gameObject.SetActive(true);
+                do
+                {
+                    if(unsortedList[0].PlayerName == allEnemies[counter].name)
+                    {
+                        GameObject enemy = Instantiate(allEnemies[counter], enemyUIList[0].transform.position, Quaternion.identity);
+                        displayEnemies.Add(enemy);
+                        GameObject enemy1 = Instantiate(allEnemies[counter], enemyUIList[2].transform.position, Quaternion.identity);
+                        displayEnemies.Add(enemy1);
+                        counter = -10;
+                    }
+                    counter++;
+                } while (counter >= 0);
                 break;
             case 3:
-                enemyUIList[0].transform.Find(unsortedList[0].PlayerName).gameObject.SetActive(true);
-                enemyUIList[1].transform.Find(unsortedList[1].PlayerName).gameObject.SetActive(true);
-                enemyUIList[2].transform.Find(unsortedList[2].PlayerName).gameObject.SetActive(true);
+                do
+                {
+                    if (unsortedList[0].PlayerName == allEnemies[counter].name)
+                    {
+                        GameObject enemy = Instantiate(allEnemies[counter], enemyUIList[0].transform.position, Quaternion.identity);
+                        displayEnemies.Add(enemy);
+                        GameObject enemy1 = Instantiate(allEnemies[counter], enemyUIList[1].transform.position, Quaternion.identity);
+                        displayEnemies.Add(enemy1);
+                        GameObject enemy2 = Instantiate(allEnemies[counter], enemyUIList[2].transform.position, Quaternion.identity) ;
+                        displayEnemies.Add(enemy2);
+                        counter = -10;
+                    }
+                    counter++;
+                } while (counter >= 0);
                 break;
+        }
+    }
+    void DisplayEnemyTurn(int index)
+    {
+        TurnOffTurnDisplay();
+        switch(enemyNum)
+        {
+            case 1:
+                index = 1;
+                break;
+            case 2:
+                if(index != 0)
+                {
+                    index = 2;
+                }
+                break;
+            case 3:
+                break;
+        }
+        enemyUIList[index].transform.GetChild(0).gameObject.SetActive(true);
+    }
+    void DisplayPlayerTurn(int index)
+    {
+        TurnOffTurnDisplay();
+        switch (playerList.Count)
+        {
+            case 1:
+                index = 1;
+                break;
+            case 2:
+                if (index != 0)
+                {
+                    index = 2;
+                }
+                break;
+            case 3:
+                break;
+        }
+        playerPositions[index].transform.GetChild(0).gameObject.SetActive(true);
+    }
+    void TurnOffTurnDisplay()
+    {
+        foreach(GameObject p in playerPositions)
+        {
+            p.transform.GetChild(0).gameObject.SetActive(false);
+        }
+        foreach (GameObject e in enemyUIList)
+        {
+            e.transform.GetChild(0).gameObject.SetActive(false);
         }
     }
     void DisplayRewards()
@@ -547,6 +782,63 @@ public class CombatManager : MonoBehaviour {
     }
     void DisplayPlayers()
     {
-
+        int counter = 0;
+        switch(playerList.Count)
+        {
+            case 1:
+                {
+                    if (playerList[0].PlayerName == allPlayerList[counter].name)
+                    {
+                        GameObject player = Instantiate(allPlayerList[counter], playerPositions[1].transform.position, Quaternion.identity);
+                        displayPlayers.Add(player);
+                        counter = -10;
+                    }
+                    counter++;
+                } while (counter >= 0) ;
+                break;
+            case 2:
+                do
+                {
+                    if (playerList[0].PlayerName == allPlayerList[counter].name)
+                    {
+                        GameObject player = Instantiate(allPlayerList[counter], playerPositions[0].transform.position, Quaternion.identity);
+                        displayPlayers.Add(player);
+                        GameObject player1 = Instantiate(allPlayerList[counter], playerPositions[2].transform.position, Quaternion.identity);
+                        displayPlayers.Add(player1);
+                        counter = -10;
+                    }
+                    counter++;
+                } while (counter >= 0);
+                break;
+            case 3:
+                do
+                {
+                    if (playerList[0].PlayerName == allPlayerList[counter].name)
+                    {
+                        GameObject player = Instantiate(allPlayerList[counter], playerPositions[0].transform.position, Quaternion.identity);
+                        displayPlayers.Add(player);
+                        GameObject player1 = Instantiate(allPlayerList[counter], playerPositions[1].transform.position, Quaternion.identity);
+                        displayPlayers.Add(player1);
+                        GameObject player2 = Instantiate(allPlayerList[counter], playerPositions[2].transform.position, Quaternion.identity);
+                        displayPlayers.Add(player2);
+                        counter = -10;
+                    }
+                    counter++;
+                } while (counter >= 0);
+                break;
+        }
     }
+    void ShakeObject()
+    {
+        if(playerAtk)
+        {
+            displayEnemies[player.targetIndex].GetComponent<ObjectShaker>().ShakeIt();
+        }
+        else
+        {
+            cCamera.GetComponent<ObjectShaker>().ShakeIt();
+        }
+    }
+
+    #endregion
 }

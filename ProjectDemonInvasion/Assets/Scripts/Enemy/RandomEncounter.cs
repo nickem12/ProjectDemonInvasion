@@ -10,10 +10,12 @@ public class RandomEncounter : MonoBehaviour {
     private float distanceNeeded;
     private float distance;
     private float rng;
+    private bool encounterOn = false;
     private GameObject gameManager;
     public List<string> enemyNames = new List<string>();
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+
+    void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
         gameManager = GameObject.FindGameObjectWithTag("GameManager");
         startPosition = player.transform.position;
@@ -22,19 +24,41 @@ public class RandomEncounter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        distance = Vector3.Distance(startPosition, player.transform.position);
-        if(distance>=distanceNeeded)
+
+        if(encounterOn)
         {
-            SpawnEnemy();
-            startPosition = player.transform.position;
-        }
+            distance = Vector3.Distance(startPosition, player.transform.position);
+            if (distance >= distanceNeeded)
+            {
+                startPosition = player.transform.position;
+                SpawnEnemy();
+            }
+        } 
 	}
 
     private void SpawnEnemy()
     {
         rng = Random.Range(0.1f, 10f);
-        if (rng > 7.1f) return;
-
-        gameManager.GetComponent<CombatManager>().StartCombat(enemyNames[Random.Range(0, enemyNames.Count)], WeaknessType.NORMAL);
+        if (rng > 7.1f)
+        {
+            return;
+        }
+        else
+        {
+            gameManager.GetComponent<CombatManager>().StartCombat(enemyNames[Random.Range(0, enemyNames.Count)], WeaknessType.NORMAL);
+        }
+        
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        encounterOn = true;
+        startPosition = player.transform.position;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        encounterOn = false;
+    }
+
 }

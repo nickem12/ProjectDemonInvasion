@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Card
+  - 1Player
+  - 2Player
+  - 1Enemy
+  - 2Enemy
+  - GameManager
   layers:
   - Default
   - TransparentFX
