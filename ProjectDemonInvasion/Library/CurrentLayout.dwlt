@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 292}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 78
+  controlID: 91
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 32
+  controlID: 90
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 33
+  controlID: 118
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1342,20 +1342,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Art
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Work\Repos\ProjectDemonInvasion\ProjectDemonInvasion
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 406c0000
-    m_LastClickedID: 27712
-    m_ExpandedIDs: 00000000f02b0000383100008c330000dc3500004e3a0000ac4f0000d46a0000406c0000
+    m_SelectedIDs: 042f0000
+    m_LastClickedID: 12036
+    m_ExpandedIDs: 00000000f22b00003e310000e63500005e3a0000c24f0000ea6a0000566c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1383,7 +1383,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f02b0000142d000038310000dc3500004e3a0000ac4f0000d46a0000406c0000
+    m_ExpandedIDs: 00000000f22b00003e31000096330000e63500005e3a0000c24f0000ea6a0000566c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1499,9 +1499,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a823fdff
-    m_LastClickedID: -187480
-    m_ExpandedIDs: f4d7feffe4fbffff00000000
+    m_SelectedIDs: 5a4c0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: bee1ffff62f6ffffe4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1639,10 +1639,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -548.5715
-    m_HBaseRangeMax: 548.5715
-    m_VBaseRangeMin: -308.57144
-    m_VBaseRangeMax: 308.57144
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1662,7 +1662,7 @@ MonoBehaviour:
       y: 17
       width: 1355
       height: 629
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.5824074, y: 0.5824074}
     m_Translation: {x: 677.5, y: 314.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1670,15 +1670,15 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -677.5
-      y: -314.5
-      width: 1355
-      height: 629
+      x: -1163.275
+      y: -540
+      width: 2326.55
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 0.5824074
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 2371.25, y: 1130.5}
+  m_LastWindowPixelSize: {x: 1355, y: 646}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
