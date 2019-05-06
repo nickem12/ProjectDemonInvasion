@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\General\ExitGame.cs" />
     <Compile Include="Assets\Scripts\General\MapTransfering.cs" />
     <Compile Include="Assets\Scripts\General\ObjectShaker.cs" />
+    <Compile Include="Assets\Scripts\General\PlayGame.cs" />
     <Compile Include="Assets\Scripts\General\ScrollScript.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerClass.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInformtion.cs" />
